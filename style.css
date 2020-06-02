@@ -1,0 +1,11 @@
+/*Using bootstrapper 
+Currently v4.5.0. Code licensed MIT, docs CC BY 3.0. */
+hr{
+    border-top: 3px solid #bbb;
+}
+.container{
+    background-color: whitesmoke;
+}
+body{
+    background-color:grey;
+}
