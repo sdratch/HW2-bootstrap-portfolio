@@ -1,3 +1,5 @@
+<!-- Using bootstrapper 
+Currently v4.5.0. Code licensed MIT, docs CC BY 3.0.  -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,11 +12,15 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Creat the Navbar -->
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#" style="background-color: lightgreen;"
+    <nav class="navbar navbar-dark bg-dark">
+      <a
+        class="navbar-brand"
+        href="#"
+        style="background-color: rgb(90, 90, 90);"
         >Sam Dratch</a
       >
       <button
@@ -49,10 +55,56 @@
       </div>
     </nav>
 
+    <!-- Start container for content -->
     <div class="container">
-      <div class="row"></div>
+      <!-- About me row -->
+      <div class="row">
+        <h1>About Me</h1>
+      </div>
+      <!-- Text and images -->
+      <div class="row">
+        <div class="col">
+          <hr />
+          <img
+            style="padding: 10px;"
+            class="float-left"
+            src="https://www.placecage.com/300/300"
+            alt="about me image"
+          />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque non augue quis tortor molestie iaculis. Nunc pulvinar
+            congue rhoncus. Donec et tortor venenatis, malesuada massa
+            efficitur, placerat neque. Nunc viverra pharetra facilisis. Nam
+            posuere ex odio, vitae euismod risus tempor eu. Vivamus lobortis
+            convallis ex ac fringilla. Nulla sem sem, auctor tincidunt metus
+            eget, fermentum accumsan nulla. Maecenas semper, ex at tristique
+            eleifend, enim dolor blandit leo, ac iaculis leo massa in dolor.
+            Praesent et odio metus. Morbi lacinia orci nunc, nec pharetra lectus
+            hendrerit at. Nullam auctor placerat tincidunt. Maecenas
+            sollicitudin mattis bibendum. Aliquam erat volutpat. Vestibulum ante
+            ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            curae; Nam condimentum neque quis odio viverra venenatis.
+            Suspendisse mauris diam, vestibulum quis leo at, vulputate tempus
+            ipsum. Curabitur gravida blandit accumsan. Aliquam auctor ante ut
+            augue porta rhoncus. Nullam hendrerit velit tellus, vitae tincidunt
+            leo pellentesque a. Proin gravida sapien nulla, condimentum ornare
+            massa dignissim a. Vivamus et velit ac justo vehicula pellentesque.
+            Nulla tempor eu ipsum id sodales. Sed sollicitudin aliquam nisl,
+            quis venenatis elit bibendum at. Praesent scelerisque, neque eget
+            semper tempor, augue libero feugiat orci, quis elementum est orci eu
+            est. Aliquam erat volutpat. Etiam eleifend sagittis ante ac
+            porttitor. Nulla sagittis odio vel porta ullamcorper. Proin id
+            scelerisque velit. Donec mattis lectus nisl, sed ultrices tortor
+            fermentum in. Nunc convallis enim ac auctor pellentesque. Sed vitae
+            vehicula ante. Aliquam bibendum, purus iaculis sagittis suscipit,
+            odio lorem efficitur mauris, ac consequat lorem ex a mauris.
+          </p>
+        </div>
+      </div>
     </div>
-
+    
+    <!-- Bootstrap scripts -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
