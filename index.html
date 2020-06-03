@@ -13,7 +13,7 @@ Currently v4.5.0. Code licensed MIT, docs CC BY 3.0.  -->
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <!-- Creat the Navbar -->
@@ -36,7 +36,7 @@ Currently v4.5.0. Code licensed MIT, docs CC BY 3.0.  -->
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Create the collapse on the navbar -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <nav class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <!-- About link -->
           <li class="nav-item active">
@@ -53,62 +53,61 @@ Currently v4.5.0. Code licensed MIT, docs CC BY 3.0.  -->
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
-      </div>
+      </nav>
     </nav>
 
     <!-- Start container for content giving padding and margins -->
-    <div class="container py-3 mt-3">
+    <main class="container py-3 mt-3">
       <!-- About me row -->
-      <div class="row">
-        <div class = "col">
-          <h1 class = "ml-3">About Me</h1>
-        <!-- line break below about me -->
-        <hr />
-        </div> 
-      </div>
+      <header class="row">
+        <header class="col">
+          <h1 class="ml-3">About Me</h1>
+          <!-- line break below about me -->
+          <hr />
+        </header>
+      </header>
       <!-- Text and images -->
-      <div class="row">
-        <div class="col">
+      <section class="row">
+        <article class="col">
           <!-- Image -->
-          <img
-            class="float-left pr-4"
-            src="https://www.placecage.com/300/300"
-            alt="About me Image"
-          />
+          <figure>
+            <img
+              class="float-left pr-4"
+              src="./Assets/20200201_132348.jpg"
+              width = 300px
+              height = 300px
+              alt="About me Image"
+            />
+          </figure>
           <!-- Text -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque non augue quis tortor molestie iaculis. Nunc pulvinar
-            congue rhoncus. Donec et tortor venenatis, malesuada massa
-            efficitur, placerat neque. Nunc viverra pharetra facilisis. Nam
-            posuere ex odio, vitae euismod risus tempor eu. Vivamus lobortis
-            convallis ex ac fringilla. Nulla sem sem, auctor tincidunt metus
-            eget, fermentum accumsan nulla. Maecenas semper, ex at tristique
-            eleifend, enim dolor blandit leo, ac iaculis leo massa in dolor.
-            Praesent et odio metus. Morbi lacinia orci nunc, nec pharetra lectus
-            hendrerit at. Nullam auctor placerat tincidunt. Maecenas
-            sollicitudin mattis bibendum. Aliquam erat volutpat. Vestibulum ante
-            ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-            curae; Nam condimentum neque quis odio viverra venenatis.
-            Suspendisse mauris diam, vestibulum quis leo at, vulputate tempus
-            ipsum. Curabitur gravida blandit accumsan. Aliquam auctor ante ut
-            augue porta rhoncus. Nullam hendrerit velit tellus, vitae tincidunt
-            leo pellentesque a. Proin gravida sapien nulla, condimentum ornare
-            massa dignissim a. Vivamus et velit ac justo vehicula pellentesque.
-            Nulla tempor eu ipsum id sodales. Sed sollicitudin aliquam nisl,
-            quis venenatis elit bibendum at. Praesent scelerisque, neque eget
-            semper tempor, augue libero feugiat orci, quis elementum est orci eu
-            est. Aliquam erat volutpat. Etiam eleifend sagittis ante ac
-            porttitor. Nulla sagittis odio vel porta ullamcorper. Proin id
-            scelerisque velit. Donec mattis lectus nisl, sed ultrices tortor
-            fermentum in. Nunc convallis enim ac auctor pellentesque. Sed vitae
-            vehicula ante. Aliquam bibendum, purus iaculis sagittis suscipit,
-            odio lorem efficitur mauris, ac consequat lorem ex a mauris.
+            Hello, My name is Sam Dratch. I am a recent graduate from Georgia tech.
+            I graduated with a bachelors of science in material science and engineering (MSE).
+            I am currently taking a coding bootcamp offered at Georgia tech to improve my knowledge
+            of coding and open up new oppertunities. I plan to also go back and get a masters in 
+            MSE in fall 2020 to enhance my knowledge on metallurgy. In my free time, I enjoy playing
+            video games and watching youtube or twitch videos. If you enjoy my profile, please feel free
+            to contact me using the "contact me page" or with the linkedin link below.
           </p>
-        </div>
-      </div>
-    </div>
-    
+          <a href="https://www.linkedin.com/in/sam-dratch-27a66579/">Linkedin Profile</a>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>@ Copyright</p>
+    </footer>
+
+    <!-- Additional style for only this html page as seen in examples-->
+    <style>
+      @media only screen and (max-width: 640px) {
+        .footer {
+          display: none;
+        }
+      }
+    </style>
+
     <!-- Bootstrap scripts -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
