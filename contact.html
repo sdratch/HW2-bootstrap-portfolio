@@ -37,7 +37,7 @@ Currently v4.5.0. Code licensed MIT, docs CC BY 3.0.  -->
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Create the collapse on the navbar -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <nav class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <!-- About link -->
           <li class="nav-item active">
@@ -54,34 +54,34 @@ Currently v4.5.0. Code licensed MIT, docs CC BY 3.0.  -->
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
-      </div>
+      </nav>
     </nav>
     <!-- Start container for content giving padding and margins  -->
-    <div class="container py-3 mt-3">
+    <main class="container py-3 mt-3">
       <!-- Contact row -->
-      <div class="row">
-        <div class="col">
+      <header class="row">
+        <header class="col">
           <h1 class="ml-3">Contact</h1>
           <!-- line break below about me -->
           <hr />
-        </div>
-      </div>
+        </header>
+      </header>
 
-      <div class="row">
-        <div class="col">
+      <section class="row">
+        <section class="col">
           <!-- form group for contacting -->
-          <from>
+          <form>
             <!-- form for name -->
-            <div class="form-group">
+            <article class="form-group">
               <label>Name</label>
               <input
                 type="text"
                 class="form-control"
                 placeholder="John Smith"
               />
-            </div>
+            </article>
             <!-- form for email address -->
-            <div class="form-group">
+            <article class="form-group">
               <label>Email address</label>
               <input
                 type="email"
@@ -89,16 +89,20 @@ Currently v4.5.0. Code licensed MIT, docs CC BY 3.0.  -->
                 aria-describedby="emailHelp"
                 placeholder="Email@gmail.com"
               />
-            </div>
+            </article>
             <!-- form for message -->
-            <div class="form-group">
+            <article class="form-group">
               <label>Message</label>
               <textarea class="form-control" rows="3"></textarea>
-            </div>
-          </from>
-        </div>
-      </div>
-    </div>
+            </article>
+          </form>
+        </section>
+      </section>
+    </main>
+     <!-- Footer -->
+     <footer class = "footer">
+      <p>@ Copyright</p>
+     </footer>
 
     <!-- Bootstrap scripts -->
     <script
