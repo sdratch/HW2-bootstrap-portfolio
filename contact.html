@@ -57,16 +57,18 @@ Currently v4.5.0. Code licensed MIT, docs CC BY 3.0.  -->
       </div>
     </nav>
     <!-- Start container for content giving padding and margins  -->
-    <div class="container pt-3 mt-3">
+    <div class="container py-3 mt-3">
       <!-- Contact row -->
       <div class="row">
-        <h1  class ="ml-3">Contact</h1>
+        <div class="col">
+          <h1 class="ml-3">Contact</h1>
+          <!-- line break below about me -->
+          <hr />
+        </div>
       </div>
 
       <div class="row">
         <div class="col">
-          <!-- line break below about me -->
-          <hr />
           <!-- form group for contacting -->
           <from>
             <!-- form for name -->
@@ -91,10 +93,7 @@ Currently v4.5.0. Code licensed MIT, docs CC BY 3.0.  -->
             <!-- form for message -->
             <div class="form-group">
               <label>Message</label>
-              <textarea
-                class="form-control"
-                rows="3"
-              ></textarea>
+              <textarea class="form-control" rows="3"></textarea>
             </div>
           </from>
         </div>

@@ -13,6 +13,8 @@ Currently v4.5.0. Code licensed MIT, docs CC BY 3.0.  -->
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <!-- Navbar -->
@@ -54,11 +56,53 @@ Currently v4.5.0. Code licensed MIT, docs CC BY 3.0.  -->
         </ul>
       </div>
     </nav>
-    <div class="container pt-3 mt-3">
+    <div class="container py-3 mt-3">
       <!-- Portfolio row -->
       <div class="row">
-        <h1 class="ml-3">Contact</h1>
-
+        <div class="col">
+          <h1 class="ml-3">Portfolio</h1>
+          <!-- line break below Portfolio -->
+          <hr />
+        </div>
+      </div>
+      <!-- Cards for different options 
+      Is 2 cols when above md size and 1 column when below-->
+      <div class="row row-cols-1 row-cols-md-2">
+        <!-- First Card -->
+        <div class="col mb-4">
+          <div class="card" style = "width: 300px;">
+            <img src="https://www.placecage.com/300/300" class="card-img-top" alt="...">
+              <h4 class="imageText card-text">Image</h4>
+          </div>
+        </div>
+        <!-- Second Card -->
+        <div class="col mb-4">
+          <div class="card" style = "width: 300px;">
+            <img src="https://www.placecage.com/300/300" class="card-img-top" alt="...">
+              <h4 class="imageText card-text">Image</h4>
+          </div>
+        </div>
+        <!-- Third Card -->
+        <div class="col mb-4">
+          <div class="card" style = "width: 300px;">
+            <img src="https://www.placecage.com/300/300" class="card-img-top" alt="...">
+              <h4 class="imageText card-text">Image</h4>
+          </div>
+        </div>
+        <!-- Fourth Card -->
+        <div class="col mb-4">
+          <div class="card" style = "width: 300px;">
+            <img src="https://www.placecage.com/300/300" class="card-img-top" alt="...">
+              <h4 class="imageText card-text">Image</h4>
+          </div>
+        </div>
+        <!-- Fifth Card -->
+        <div class="col mb-4">
+          <div class="card" style = "width: 300px;">
+            <img src="https://www.placecage.com/300/300" class="card-img-top" alt="...">
+              <h4 class="imageText card-text">Image</h4>
+          </div>
+        </div>
       </div>
     </div>
 
