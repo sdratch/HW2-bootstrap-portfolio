@@ -24,6 +24,12 @@ body{
     float: none; 
     margin-bottom: 10px; 
 }
+img{
+    height: 300px;
+    width:  300px;
+    object-fit: cover;
+}
+
 /* taken from W3Schools examples on footers*/
 .footer{
     position: fixed;
